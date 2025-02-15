@@ -1,6 +1,11 @@
 body{
-    background-color: #000;
+    
     font-family: var(--font-dm-sans);
+    background: radial-gradient(circle at 30% 50%, #26b7a1, #134754, #0c212c 70%);
+    background-color: radial-gradient(circle at 70% 50%, #1c695d, #0c2b33, #091921 50%);
+    height: 100vh;
+    margin: 0; 
+    overflow: hidden;
 
 }
 h1{
@@ -18,14 +23,14 @@ h1{
 }
 
 .sidebar__navigation{
-    background-color: #121212;
+    background-color:  var(--bg-card-color);
     border-radius: 8px;
     padding: 16px 0px 0px 16px;
 
 }
 
 .sidebar__navigation .logo {
-    background-color: #121212;
+    background-color: transparent;
     display: flex;
     border-radius: 8px;
     padding: 16px 0px 0px 16px;     
@@ -52,7 +57,7 @@ h1{
 }
 
 .library{
-    background-color: #121212;
+    background-color: var(--bg-card-color);
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -104,7 +109,7 @@ h1{
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #242424;
+    background-color: var(--bg-search-color);
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
